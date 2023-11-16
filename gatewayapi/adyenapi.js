@@ -21,10 +21,10 @@ let doAdyenPayment = async (req, res, next)  => {
             encryptedSecurityCode: "test_737"
           },
 
-        recurringProcessingModel: "Subscription",
-        storePaymentMethod: "true",
-        shopperReference:`shopperref${count++}`,
-        returnUrl:"https://your-company.com"
+        // recurringProcessingModel: "Subscription",
+        // storePaymentMethod: "true",
+        // shopperReference:`shopperref${count++}`,
+        returnUrl:"https://vcharge.mobiotics.com/"
     }
 
     let config = {

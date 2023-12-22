@@ -14,17 +14,17 @@ curl --location 'http://localhost:5000/v1/payment' \
 ```
 
 ## Tasks:
-[*] POST api
+- [x] POST api
   - Create Payment
     - Merchant Account
     - Currency
     - Amount
     - Reference ID
-[*] POST API
+- [x] POST API
   - Renewal
 
 ## Reference:
 
-[*] [Adyen Official Docs](https://docs.adyen.com/)
+- [x] [Adyen Official Docs](https://docs.adyen.com/)
 
 
